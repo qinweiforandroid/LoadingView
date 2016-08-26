@@ -7,10 +7,13 @@
 # how to use
 你可以将你的主布局设置成帧布局或者相对布局 使得loadingview 覆盖到内容页面之上
 xml 配置:
-<com.qw.loadingview.widget.LoadingView
+<code>
+    <com.qw.loadingview.widget.LoadingView
         android:id="@id/mLoadingView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+</code>
+
 
 Activity:
 LoadingView mLoadingView = (LoadingView) findViewById(R.id.mLoadingView);
