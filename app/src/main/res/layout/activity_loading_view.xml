@@ -1,0 +1,22 @@
+<ViewSwitcher xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/mViewSwitcher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:inAnimation="@android:anim/fade_in"
+    android:outAnimation="@android:anim/fade_out">
+
+    <com.qw.loadingview.widget.LoadingView
+        android:id="@id/mLoadingView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="数据加载成功"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+</ViewSwitcher>

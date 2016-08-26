@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_one"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="load页" />
+
+    <item
+        android:id="@+id/action_two"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="数据页面" />
+
+    <item
+        android:id="@+id/action_loading"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="加载中" />
+    <item
+        android:id="@+id/action_err"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="加载失败" />
+    <item
+        android:id="@+id/action_nodata"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="NO DATA" />
+</menu>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- LoadingView-->
+    <item name="mLoadingView" type="id" />
+    <item name="mViewSwitcher" type="id" />
+    <item name="mHomeContent" type="id" />
+</resources>
