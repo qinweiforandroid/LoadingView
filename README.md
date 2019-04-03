@@ -7,22 +7,26 @@
 # how to use
 你可以将你的主布局设置成帧布局或者相对布局 使得loadingview 覆盖到内容页面之上
 xml 配置:
-<code>
+```xml
     <com.qw.loadingview.widget.LoadingView
         android:id="@id/mLoadingView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-</code>
+```
 
 
 Activity:
+```java
 LoadingView mLoadingView = (LoadingView) findViewById(R.id.mLoadingView);
 //notifyDataChanged()切换各个view之前的状态
 mLoadingView.notifyDataChanged(LoadingView.State.ing);
+```
 
 LoadingView.State加载状态
+```java
 public enum State {
         ing, error, done, empty
 }
+```
 # 样式
 样式你可以根据你自己的业务进行定制
